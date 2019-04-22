@@ -5,4 +5,6 @@ node default {
    owner   => 'root',
    mode    => '0644',
   }
+  file {'/root/README':
+   owner   => 'root',  
 }
